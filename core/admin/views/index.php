@@ -1,0 +1,1 @@
+<h1 style="color: blue;"><?php echo '<pre>'; print_r($name); print_r($surname);?></h1>

@@ -1,0 +1,8 @@
+Fault: 21.07.2021 21:30:27 - SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+File: C:\OpenServer\domains\php-shop.ru\public_html\core\base\models\BaseModel.php
+In line: 28
+
+Fault: 21.07.2021 21:31:13 - Ошибка подключения к базе данных: 1045 Access denied for user 'root'@'localhost' (using password: NO)
+File: C:\OpenServer\domains\php-shop.ru\public_html\core\base\models\BaseModel.php
+In line: 33
+

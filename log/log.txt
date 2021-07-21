@@ -1,0 +1,36 @@
+Fault: 21.07.2021 14:03:06 - Неверное имя файла для подключения - core/user/controllers/IndexController
+File: C:\OpenServer\domains\php-shop.ru\public_html\core\base\settings\internal_settings.php
+In line: 31
+
+Fault: 21.07.2021 14:03:12 - Неверное имя файла для подключения - core/user/controllers/IndexController
+File: C:\OpenServer\domains\php-shop.ru\public_html\core\base\settings\internal_settings.php
+In line: 31
+
+Fault: 21.07.2021 14:05:41 - Такой страницы не существует
+File: C:\OpenServer\domains\php-shop.ru\public_html\core\base\settings\internal_settings.php
+In line: 31
+
+Fault: 21.07.2021 14:13:55 - Такой страницы не существует
+File: C:\OpenServer\domains\php-shop.ru\public_html\core\base\settings\internal_settings.php
+In line: 31
+
+Fault: 21.07.2021 14:14:29 - Такой страницы не существует
+File: C:\OpenServer\domains\php-shop.ru\public_html\core\base\settings\internal_settings.php
+In line: 31
+
+Fault: 21.07.2021 14:14:54 - Неверное имя файла для подключения - core/user/controllers/IndexController
+File: C:\OpenServer\domains\php-shop.ru\public_html\core\base\settings\internal_settings.php
+In line: 31
+
+Fault: 21.07.2021 14:19:52 - Неверное имя файла для подключения - core/user/controllers/IndexController
+File: C:\OpenServer\domains\php-shop.ru\public_html\core\base\settings\internal_settings.php
+In line: 31
+
+Fault: 21.07.2021 14:19:59 - Неверное имя файла для подключения - core/user/controllers/IndexController
+File: C:\OpenServer\domains\php-shop.ru\public_html\core\base\settings\internal_settings.php
+In line: 31
+
+Fault: 21.07.2021 14:20:20 - Неверное имя файла для подключения - core/user/controllers/IndexController
+File: C:\OpenServer\domains\php-shop.ru\public_html\core\base\settings\internal_settings.php
+In line: 31
+
