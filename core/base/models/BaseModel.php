@@ -22,11 +22,11 @@ class BaseModel
       \PDO::ATTR_EMULATE_PREPARES   => true,
     );
 
-    // try {
-    //   $this->db = @new \PDO(DSN, USER, PASS, $opt);
-    // } catch (\PDOException $e) {
-    //   throw new DBException($e->getMessage());
-    // }
+    try {
+      $this->db = @new \PDO(DSN, USER, PASS, $opt);
+    } catch (\PDOException $e) {
+      throw new DBException($e->getMessage());
+    }
 
     $this->db2 = @new \mysqli(HOST, USER, PASS, DB_NAME);
     if ($this->db2->connect_error) {
