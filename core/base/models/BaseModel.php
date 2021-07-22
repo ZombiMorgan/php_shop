@@ -21,9 +21,10 @@ class BaseModel
       \PDO::ATTR_DEFAULT_FETCH_MODE => \PDO::FETCH_ASSOC,
       \PDO::ATTR_EMULATE_PREPARES   => true,
     );
-
+    $dsn = 'mysql:host=' . HOST . ';dbname=' . DB_NAME . ';charset=' . DB_CHARSET;
+    
     try {
-      $this->db = @new \PDO(DSN, USER, PASS, $opt);
+      $this->db = @new \PDO($dsn, USER, PASS, $opt);
     } catch (\PDOException $e) {
       throw new DBException($e->getMessage());
     }
@@ -33,7 +34,7 @@ class BaseModel
       throw new DBException('Ошибка подключения к базе данных: ['
       . $this->db2->connect_errno . '] ' . $this->db2->connect_error);
     }
-    $this->db2->set_charset('utf8mb4');
+    $this->db2->set_charset(DB_CHARSET);
 
   }
 }
